@@ -1,9 +1,12 @@
-#include <studio.h>
-int main()
-{
-    char str[20];
-    scanf("%s",&str);
-    printf("string entered is %s" ,str);
+#include <stdio.h>
+
+int main() {
+    float num;
+
+    printf("Enter a floating point number: ");
+    scanf("%f", &num);
+
+    printf("You entered: %f\n", num);
 
     return 0;
 }
