@@ -5,13 +5,13 @@ int x,y,z;
     scanf("%d",&y); 
     scanf("%d",&z); 
 
- if((x>y) && (x>z)){
+ if((x>=y) && (x>=z)){
     printf("%d",x);
 }
-else if((y>x) && (y>z)){
+else if((y>=x) && (y>=z)){
     printf("%d",y);
 }
-else if((z>x) && (z>y)){
+else if((z>=x) && (z>=y)){
     printf("%d",z);
 }
     return 0;
