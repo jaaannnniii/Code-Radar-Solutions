@@ -3,7 +3,6 @@
 int main()
 {
     int x;
-    printf("ENTER THE PERCENTAGE : ");
     scanf("%d",&x);
     if (x>=90){
         printf("A");
@@ -18,7 +17,7 @@ int main()
         printf("D");
     }
     else if (x<60){
-        printf("F")
+        printf("F");
     }
     return 0;
 }
